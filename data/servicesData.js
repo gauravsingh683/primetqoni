@@ -2772,7 +2772,7 @@ const servicesData = {
         </div>
 
         <div class="animate-on-scroll" style="margin-top: 40px; margin-bottom: 40px;">
-            <img src="/images/asset-analytics.png" alt="Database Backup Automation Dashboard" style="width:100%; border-radius:12px; box-shadow: var(--shadow-deep); transition: transform 0.3s ease;" class="hover-scale" />
+            <img src="/images/sql-backup-dashboard.jpg" alt="Database Backup Automation Dashboard" style="width:100%; border-radius:12px; box-shadow: var(--shadow-deep); transition: transform 0.3s ease;" class="hover-scale" />
         </div>
 
         <div class="animate-on-scroll">
