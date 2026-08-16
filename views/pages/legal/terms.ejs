@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %>
+</head>
+<body data-page="legal">
+
+    <%- include('../../partials/header') %>
+
+    <section class="section-padding-lg" style="padding-top: 160px;">
+        <div class="container">
+            <div class="legal-content animate-on-scroll">
+                <h1>Terms & Conditions</h1>
+                <div class="legal-meta">Last Updated: <%= new Date().toLocaleDateString() %></div>
+
+                <h2>1. Acceptance of Terms</h2>
+                <p>By accessing and using the services of Primetroniq Innovations ("we", "us", "our"), you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.</p>
+
+                <h2>2. Description of Service</h2>
+                <p>Primetroniq Innovations provides software development, web development, digital marketing, communication APIs, and related IT services. The specifics of any service provided will be detailed in a separate Statement of Work (SOW) or Service Level Agreement (SLA) agreed upon by both parties.</p>
+
+                <h2>3. Client Responsibilities</h2>
+                <p>Clients are expected to provide timely feedback, necessary assets (e.g., logos, copy, images), and approvals required to execute the project successfully. Delays in providing these materials may result in project timeline extensions.</p>
+
+                <h2>4. Intellectual Property</h2>
+                <p>Upon full payment for our services, the intellectual property rights of the custom software, designs, and content created specifically for the client are transferred to the client. Pre-existing frameworks, proprietary code, or open-source tools used in the development remain the property of their respective owners.</p>
+
+                <h2>5. Payment Terms</h2>
+                <p>Payment terms will be specified in the project proposal or invoice. We generally require an upfront deposit before commencing work, with subsequent milestone payments as the project progresses. All invoices are due upon receipt unless otherwise stated.</p>
+
+                <h2>6. Limitation of Liability</h2>
+                <p>Primetroniq Innovations shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, resulting from your use of our services.</p>
+
+                <h2>7. Contact Information</h2>
+                <p>If you have any questions about these Terms, please contact us at <a href="mailto:<%= email %>"><%= email %></a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <%- include('../../partials/footer') %>
+    <%- include('../../partials/whatsapp') %>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

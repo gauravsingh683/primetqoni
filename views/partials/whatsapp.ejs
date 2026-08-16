@@ -1,0 +1,228 @@
+<style>
+.whatsapp-widget {
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  z-index: 1040;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.whatsapp-widget.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.whatsapp-trigger {
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+  z-index: 2;
+}
+
+.whatsapp-trigger:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-trigger::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px solid #25D366;
+  border-radius: 50%;
+  animation: pulse-ring 2s infinite;
+  z-index: -1;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.9); opacity: 1; }
+  100% { transform: scale(1.3); opacity: 0; }
+}
+
+.whatsapp-popup {
+  background: white;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.9) translateY(20px);
+  transform-origin: bottom right;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+}
+
+.whatsapp-popup.open {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1) translateY(0);
+}
+
+.whatsapp-header {
+  background: #0a2540;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whatsapp-header h4 {
+  margin: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.whatsapp-close {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.whatsapp-close:hover {
+  opacity: 1;
+}
+
+.whatsapp-body {
+  padding: 20px;
+  background: #ece5dd;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.05' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.whatsapp-message {
+  background: white;
+  padding: 12px 15px;
+  border-radius: 0 12px 12px 12px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  position: relative;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.whatsapp-message::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -8px;
+  border-top: 10px solid white;
+  border-left: 10px solid transparent;
+}
+
+.whatsapp-time {
+  font-size: 10px;
+  color: #999;
+  text-align: right;
+  margin-top: 5px;
+  display: block;
+}
+
+.whatsapp-footer {
+  padding: 15px;
+  background: white;
+  text-align: center;
+}
+
+.whatsapp-start-btn {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.whatsapp-start-btn:hover {
+  background: #128C7E;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .whatsapp-widget {
+    bottom: 20px;
+    right: 20px;
+  }
+  .whatsapp-popup {
+    width: 280px;
+  }
+}
+</style>
+<!-- msg91 Chat Widget -->
+<script type="text/javascript" src="https://blacksea.msg91.com/chat-widget.js"></script>
+<script type="text/javascript">
+  var helloConfig = {
+    widgetToken: "4e2eb",
+    hide_launcher: false,
+    show_widget_form: true,
+    show_close_button: true,
+    launch_widget: false,
+    show_send_button: true,
+    unique_id: "",
+    name: "",
+    number: "",
+    mail: "",
+    theme: "system"
+  };
+  initChatWidget(helloConfig, 5000);
+</script>
+
+<div class="whatsapp-widget">
+  <div class="whatsapp-popup">
+    <div class="whatsapp-header">
+      <h4>
+        <img src="/assets/images/logo.png" alt="Logo" style="height:24px; filter:brightness(0) invert(1);">
+      </h4>
+      <button class="whatsapp-close"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="whatsapp-body">
+      <div class="whatsapp-message">
+        Hi there! 👋<br>
+        How can we help you with your business needs today?
+        <span class="whatsapp-time">Just now</span>
+      </div>
+    </div>
+    <div class="whatsapp-footer">
+      <a href="https://wa.me/<%= whatsapp %>?text=Hi%20Primetroniq%20Innovations,%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" class="whatsapp-start-btn">
+        <i class="fab fa-whatsapp"></i> Start Chat
+      </a>
+    </div>
+  </div>
+  <div class="whatsapp-trigger">
+    <i class="fab fa-whatsapp"></i>
+  </div>
+</div>

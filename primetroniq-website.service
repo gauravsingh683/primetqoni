@@ -1,0 +1,17 @@
+[Unit]
+Description=Primetroniq Corporate Website
+After=network.target mysql.service
+Requires=mysql.service
+
+[Service]
+Type=simple
+WorkingDirectory=/var/www/html/devmode_Cloud
+ExecStart=/usr/bin/node /var/www/html/devmode_Cloud/server.js
+Restart=always
+RestartSec=5
+User=ubuntu
+Group=www-data
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

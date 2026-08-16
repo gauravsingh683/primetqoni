@@ -1,0 +1,1114 @@
+[
+  {
+    "market": "India",
+    "prefix": "91",
+    "marketing": "₹0.86310",
+    "utility": "₹0.11500",
+    "auth": "₹0.11500",
+    "voice": "₹0.38850"
+  },
+  {
+    "market": "Afghanistan",
+    "prefix": "93",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.83560"
+  },
+  {
+    "market": "Albania",
+    "prefix": "355",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.69640"
+  },
+  {
+    "market": "Algeria",
+    "prefix": "213",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Angola",
+    "prefix": "244",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Argentina",
+    "prefix": "54",
+    "marketing": "₹4.52930",
+    "utility": "₹1.90620",
+    "auth": "₹1.90620",
+    "voice": "₹0.74030"
+  },
+  {
+    "market": "Armenia",
+    "prefix": "374",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.69640"
+  },
+  {
+    "market": "Australia",
+    "prefix": "61",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.83560"
+  },
+  {
+    "market": "Austria",
+    "prefix": "43",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Azerbaijan",
+    "prefix": "994",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.69640"
+  },
+  {
+    "market": "Bahrain",
+    "prefix": "973",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Bangladesh",
+    "prefix": "880",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Belarus",
+    "prefix": "375",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Belgium",
+    "prefix": "32",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Benin",
+    "prefix": "229",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Bolivia",
+    "prefix": "591",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Botswana",
+    "prefix": "267",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Brazil",
+    "prefix": "55",
+    "marketing": "₹4.58080",
+    "utility": "₹0.49840",
+    "auth": "₹0.49840",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Bulgaria",
+    "prefix": "359",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Burkina Faso",
+    "prefix": "226",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Burundi",
+    "prefix": "257",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Cambodia",
+    "prefix": "855",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Cameroon",
+    "prefix": "237",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Chad",
+    "prefix": "235",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Chile",
+    "prefix": "56",
+    "marketing": "₹6.51350",
+    "utility": "₹1.46540",
+    "auth": "₹1.46540",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "China",
+    "prefix": "86",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Colombia",
+    "prefix": "57",
+    "marketing": "₹0.91610",
+    "utility": "₹0.05880",
+    "auth": "₹0.05880",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Costa Rica",
+    "prefix": "506",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Croatia",
+    "prefix": "385",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Czech Republic",
+    "prefix": "420",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Denmark",
+    "prefix": "45",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Dominican Republic",
+    "prefix": "1809",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Ecuador",
+    "prefix": "593",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Egypt",
+    "prefix": "20",
+    "marketing": "₹4.71910",
+    "utility": "₹0.26390",
+    "auth": "₹0.26390",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "El Salvador",
+    "prefix": "503",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Eritrea",
+    "prefix": "291",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Ethiopia",
+    "prefix": "251",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Finland",
+    "prefix": "358",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "France",
+    "prefix": "33",
+    "marketing": "₹6.29900",
+    "utility": "₹2.19940",
+    "auth": "₹2.19940",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Gabon",
+    "prefix": "241",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Gambia",
+    "prefix": "220",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Georgia",
+    "prefix": "995",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Germany",
+    "prefix": "49",
+    "marketing": "₹10.00730",
+    "utility": "₹4.03220",
+    "auth": "₹4.03220",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Ghana",
+    "prefix": "233",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Greece",
+    "prefix": "30",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Guatemala",
+    "prefix": "502",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Guinea-Bissau",
+    "prefix": "245",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Haiti",
+    "prefix": "509",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Honduras",
+    "prefix": "504",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Hong Kong",
+    "prefix": "852",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Hungary",
+    "prefix": "36",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Indonesia",
+    "prefix": "62",
+    "marketing": "₹3.01110",
+    "utility": "₹1.83160",
+    "auth": "₹1.83160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Iraq",
+    "prefix": "964",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Ireland",
+    "prefix": "353",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Israel",
+    "prefix": "972",
+    "marketing": "₹2.58710",
+    "utility": "₹0.38850",
+    "auth": "₹0.38850",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Italy",
+    "prefix": "39",
+    "marketing": "₹5.06140",
+    "utility": "₹2.19740",
+    "auth": "₹2.19740",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Ivory Coast",
+    "prefix": "225",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Jamaica",
+    "prefix": "1658",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Japan",
+    "prefix": "81",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Jordan",
+    "prefix": "962",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Kenya",
+    "prefix": "254",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Kuwait",
+    "prefix": "965",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Laos",
+    "prefix": "856",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Latvia",
+    "prefix": "371",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Lebanon",
+    "prefix": "961",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Lesotho",
+    "prefix": "266",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Liberia",
+    "prefix": "231",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Libya",
+    "prefix": "218",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Lithuania",
+    "prefix": "370",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Madagascar",
+    "prefix": "261",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Malawi",
+    "prefix": "265",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Malaysia",
+    "prefix": "60",
+    "marketing": "₹6.30370",
+    "utility": "₹1.02620",
+    "auth": "₹1.02620",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Mali",
+    "prefix": "223",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Mauritania",
+    "prefix": "222",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Mexico",
+    "prefix": "52",
+    "marketing": "₹2.23570",
+    "utility": "₹0.62260",
+    "auth": "₹0.62260",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Moldova",
+    "prefix": "373",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Mongolia",
+    "prefix": "976",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Morocco",
+    "prefix": "212",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Mozambique",
+    "prefix": "258",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Namibia",
+    "prefix": "264",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Nepal",
+    "prefix": "977",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Netherlands",
+    "prefix": "31",
+    "marketing": "₹11.70780",
+    "utility": "₹3.66560",
+    "auth": "₹3.66560",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "New Zealand",
+    "prefix": "64",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Nicaragua",
+    "prefix": "505",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Niger",
+    "prefix": "227",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Nigeria",
+    "prefix": "234",
+    "marketing": "₹3.78510",
+    "utility": "₹0.49150",
+    "auth": "₹0.49150",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "North Macedonia",
+    "prefix": "389",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Norway",
+    "prefix": "47",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Oman",
+    "prefix": "968",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Other",
+    "prefix": "N/A",
+    "marketing": "₹4.42480",
+    "utility": "₹0.56410",
+    "auth": "₹0.56410",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Pakistan",
+    "prefix": "92",
+    "marketing": "₹3.46830",
+    "utility": "₹0.39600",
+    "auth": "₹0.39600",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Panama",
+    "prefix": "507",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Papua New Guinea",
+    "prefix": "675",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Paraguay",
+    "prefix": "595",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Peru",
+    "prefix": "51",
+    "marketing": "₹5.15360",
+    "utility": "₹1.46620",
+    "auth": "₹1.46620",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Philippines",
+    "prefix": "63",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Poland",
+    "prefix": "48",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Portugal",
+    "prefix": "351",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Puerto Rico",
+    "prefix": "1787939",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Qatar",
+    "prefix": "974",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Republic of the Congo (Brazzaville)",
+    "prefix": "242",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Romania",
+    "prefix": "40",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Russia",
+    "prefix": "7",
+    "marketing": "₹5.87670",
+    "utility": "₹2.93110",
+    "auth": "₹2.93110",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Rwanda",
+    "prefix": "250",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Saudi Arabia",
+    "prefix": "966",
+    "marketing": "₹3.32920",
+    "utility": "₹0.78340",
+    "auth": "₹0.78340",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Senegal",
+    "prefix": "221",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Serbia",
+    "prefix": "381",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Sierra Leone",
+    "prefix": "232",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Singapore",
+    "prefix": "65",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Slovakia",
+    "prefix": "421",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Slovenia",
+    "prefix": "386",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Somalia",
+    "prefix": "252",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "South Africa",
+    "prefix": "27",
+    "marketing": "₹2.78210",
+    "utility": "₹0.55790",
+    "auth": "₹0.55790",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "South Sudan",
+    "prefix": "211",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Spain",
+    "prefix": "34",
+    "marketing": "₹4.50440",
+    "utility": "₹1.46480",
+    "auth": "₹1.46480",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Sri Lanka",
+    "prefix": "94",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Sudan",
+    "prefix": "249",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Swaziland",
+    "prefix": "268",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Sweden",
+    "prefix": "46",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Switzerland",
+    "prefix": "41",
+    "marketing": "₹4.33780",
+    "utility": "₹1.25160",
+    "auth": "₹1.25160",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Taiwan",
+    "prefix": "886",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Tajikistan",
+    "prefix": "992",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Tanzania",
+    "prefix": "255",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Thailand",
+    "prefix": "66",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Togo",
+    "prefix": "228",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Tunisia",
+    "prefix": "216",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Turkey",
+    "prefix": "90",
+    "marketing": "₹0.79890",
+    "utility": "₹0.38840",
+    "auth": "₹0.38840",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Turkmenistan",
+    "prefix": "993",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Uganda",
+    "prefix": "256",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Ukraine",
+    "prefix": "380",
+    "marketing": "₹6.29970",
+    "utility": "₹1.54960",
+    "auth": "₹1.54960",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "United Arab Emirates",
+    "prefix": "971",
+    "marketing": "₹3.66130",
+    "utility": "₹1.15090",
+    "auth": "₹1.15090",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "United Kingdom",
+    "prefix": "44",
+    "marketing": "₹3.87470",
+    "utility": "₹1.61220",
+    "auth": "₹1.61220",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "United States",
+    "prefix": "1",
+    "marketing": "₹1.83130",
+    "utility": "₹0.24910",
+    "auth": "₹0.24910",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Uruguay",
+    "prefix": "598",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Uzbekistan",
+    "prefix": "998",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Venezuela",
+    "prefix": "58",
+    "marketing": "₹5.42070",
+    "utility": "₹0.82780",
+    "auth": "₹0.82780",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Vietnam",
+    "prefix": "84",
+    "marketing": "₹5.36640",
+    "utility": "₹0.82820",
+    "auth": "₹0.82820",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Yemen",
+    "prefix": "967",
+    "marketing": "₹2.49930",
+    "utility": "₹0.66650",
+    "auth": "₹0.66650",
+    "voice": "₹0.75500"
+  },
+  {
+    "market": "Zambia",
+    "prefix": "260",
+    "marketing": "₹1.64970",
+    "utility": "₹0.29300",
+    "auth": "₹0.29300",
+    "voice": "₹0.75500"
+  }
+]

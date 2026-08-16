@@ -1,0 +1,78 @@
+:root {
+  /* Modern Global IT Consultancy Color Palette */
+  --primary: #0066cc; /* Trusted Electric Blue */
+  --primary-dark: #0a2540; /* High-end Deep Slate/Navy (Infosys/Accenture vibe) */
+  --primary-light: #e6f0ff;
+  
+  --secondary: #0f172a; /* Slate 900 (Text and dark UI components) */
+  --accent: #00d4ff; /* Electric Neon Cyan */
+  
+  --grad-primary: linear-gradient(135deg, #0066cc 0%, #0a2540 100%);
+  --grad-accent: linear-gradient(135deg, #00d4ff 0%, #0066cc 100%);
+  --grad-light: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+  
+  /* Backgrounds */
+  --bg-dark: #0a2540; /* Deep rich navy for dark sections */
+  --bg-light: #f8fafc; /* Sleek cool slate white for light pages */
+  --bg-surface: #ffffff; /* pure white surface */
+  --bg-card: #ffffff;
+  
+  /* Text */
+  --text-primary: #0f172a; /* Slate 900 */
+  --text-secondary: #475569; /* Slate 600 */
+  --text-muted: #94a3b8; /* Slate 400 */
+  --text-light: #f8fafc;
+  
+  /* Glassmorphism & Borders */
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-bg-dark: rgba(10, 37, 64, 0.85);
+  --glass-border: rgba(15, 23, 42, 0.08);
+  --glass-border-light: rgba(255, 255, 255, 0.15);
+  --glass-shadow: 0 8px 32px rgba(10, 37, 64, 0.04);
+  
+  /* Typography */
+  --font-heading: 'Outfit', 'Inter', -apple-system, sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+  --space-12: 64px;
+  --space-16: 96px;
+  --space-24: 128px;
+  --space-32: 160px;
+  
+  /* Borders & Radius - Premium rounded look */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-xl: 30px;
+  --radius-pill: 9999px;
+  
+  /* Subtle, elegant depth shadows */
+  --shadow-sm: 0 2px 8px rgba(10, 37, 64, 0.04);
+  --shadow-md: 0 8px 24px rgba(10, 37, 64, 0.06);
+  --shadow-lg: 0 16px 40px rgba(10, 37, 64, 0.08);
+  --shadow-xl: 0 24px 60px rgba(10, 37, 64, 0.12);
+  
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Z-Index */
+  --z-base: 0;
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal: 1040;
+  --z-tooltip: 1050;
+  
+  /* Layout */
+  --container-width: 1240px;
+}

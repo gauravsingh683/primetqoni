@@ -1,0 +1,77 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      
+      <!-- Column 1 -->
+      <div class="footer-col">
+        <a href="/" class="footer-logo mb-4" style="display:inline-block; margin-bottom: 1.5rem;">
+          <img src="/assets/images/logo.png" alt="Primetroniq Innovations" style="height: 40px; filter: brightness(0) invert(1);">
+        </a>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+          Pioneering IT solutions, custom software development, web design & digital marketing in India. We help businesses scale with secure, modern technology.
+        </p>
+        <div class="social-links">
+          <a href="<%= facebook %>" target="_blank" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="<%= instagram %>" target="_blank" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="<%= linkedin %>" target="_blank" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="<%= twitter %>" target="_blank" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/services">Our Services</a></li>
+          <li><a href="/blog">Latest Blogs</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/book-demo">Book a Demo</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="footer-col">
+        <h4>Our Services</h4>
+        <ul class="footer-links">
+          <li><a href="/services/web-development">Web Development</a></li>
+          <li><a href="/services/custom-software">Custom Software</a></li>
+          <li><a href="/services/power-bi">Power BI & Analytics</a></li>
+          <li><a href="/services/whatsapp-api">WhatsApp API</a></li>
+          <li><a href="/services/azure-cloud">Cloud Hosting</a></li>
+          <li><a href="/services/queue-management">Queue Management System</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul class="footer-links mb-4" style="margin-bottom: 1.5rem;">
+          <li style="display:flex; gap:10px;"><i class="fas fa-envelope" style="color:var(--accent); margin-top:5px;"></i> <a href="mailto:<%= email %>"><%= email %></a></li>
+          <li style="display:flex; gap:10px;"><i class="fas fa-phone" style="color:var(--accent); margin-top:5px;"></i> <a href="tel:<%= phone.replace(/\s+/g, '') %>"><%= phone %></a></li>
+          <li style="display:flex; gap:10px;"><i class="fab fa-whatsapp" style="color:var(--accent); margin-top:5px;"></i> <a href="https://wa.me/<%= whatsapp %>" target="_blank">Chat on WhatsApp</a></li>
+          <li style="display:flex; gap:10px;"><i class="fas fa-map-marker-alt" style="color:var(--accent); margin-top:5px;"></i> <span>Delhi NCR, India</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="copyright">
+        &copy; <%= year %> Primetroniq Innovations. All Rights Reserved.
+      </div>
+      <div class="footer-legal-links">
+        <a href="/terms">Terms & Conditions</a>
+        <a href="/privacy-policy">Privacy Policy</a>
+        <a href="/cookie-policy">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top Button -->
+<div class="back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</div>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/admin.css">
+</head>
+<body>
+
+    <aside class="admin-sidebar">
+        <div class="admin-logo">
+            <img src="/assets/images/logo.png" alt="Logo">
+        </div>
+        <nav class="admin-nav">
+            <a href="/admin" class="active"><i class="fas fa-home"></i> Dashboard</a>
+            <a href="/admin/settings"><i class="fas fa-cog"></i> SMTP Settings</a>
+            <a href="/" target="_blank"><i class="fas fa-external-link-alt"></i> View Website</a>
+        </nav>
+        <div class="admin-user">
+            Logged in as:<br>
+            <strong><%= adminEmail %></strong><br><br>
+            <a href="/admin/logout" style="color: #ef4444; text-decoration: none;"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+    </aside>
+
+    <main class="admin-main">
+        <header class="admin-header">
+            <h2>Dashboard Overview</h2>
+        </header>
+
+        <div class="admin-content">
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon blue"><i class="fas fa-inbox"></i></div>
+                    <div class="stat-info">
+                        <h3><%= totalSubmissions %></h3>
+                        <p>Total Submissions</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon orange"><i class="fas fa-envelope-open"></i></div>
+                    <div class="stat-info">
+                        <h3><%= unreadCount %></h3>
+                        <p>Unread Messages</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon green"><i class="fas fa-calendar-day"></i></div>
+                    <div class="stat-info">
+                        <h3><%= todayCount %></h3>
+                        <p>Received Today</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="admin-card">
+                <div class="admin-card-header">
+                    <h3>Recent Contact Submissions</h3>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Date</th>
+                                <th>Name</th>
+                                <th>Contact Details</th>
+                                <th>Interest / Type</th>
+                                <th>Message</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% if (submissions && submissions.length > 0) { %>
+                                <% submissions.forEach((sub, index) => { %>
+                                    <tr>
+                                        <td>
+                                            <strong><%= ((pagination.page - 1) * pagination.limit) + index + 1 %></strong>
+                                        </td>
+                                        <td style="white-space: nowrap;">
+                                            <%= new Date(sub.created_at).toLocaleDateString() %><br>
+                                            <span style="color: var(--admin-text-secondary); font-size: 12px;"><%= new Date(sub.created_at).toLocaleTimeString() %></span>
+                                        </td>
+                                        <td>
+                                            <strong><%= sub.name %></strong>
+                                            <% if(sub.company) { %><br><span style="color: var(--admin-text-secondary); font-size: 12px;"><%= sub.company %></span><% } %>
+                                        </td>
+                                        <td>
+                                            <a href="mailto:<%= sub.email %>"><%= sub.email %></a><br>
+                                            <%= sub.phone %>
+                                        </td>
+                                        <td>
+                                            <% if (sub.message.includes('[DEMO REQUEST]')) { %>
+                                                <span class="badge badge-demo">Demo</span>
+                                            <% } else { %>
+                                                <span class="badge badge-contact">Contact</span>
+                                            <% } %>
+                                            <br><span style="font-size: 12px; color: var(--admin-text-secondary);"><%= sub.service %></span>
+                                        </td>
+                                        <td style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="<%= sub.message %>">
+                                            <%= sub.message %>
+                                        </td>
+                                    </tr>
+                                <% }) %>
+                            <% } else { %>
+                                <tr>
+                                    <td colspan="6" style="text-align: center; padding: 40px; color: var(--admin-text-secondary);">No submissions yet.</td>
+                                </tr>
+                            <% } %>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <!-- Pagination Controls -->
+                <div style="padding: 20px 24px; border-top: 1px solid var(--admin-border); display: flex; justify-content: space-between; align-items: center; background: #f8fafc;">
+                    <div style="display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--admin-text-secondary);">
+                        <label for="limitSelect">Items per page:</label>
+                        <select id="limitSelect" style="padding: 6px 10px; border: 1px solid var(--admin-border); border-radius: 4px; font-family: 'Inter', sans-serif;" onchange="window.location.href='?page=1&limit='+this.value">
+                            <option value="25" <%= pagination.limit == 25 ? 'selected' : '' %>>25</option>
+                            <option value="50" <%= pagination.limit == 50 ? 'selected' : '' %>>50</option>
+                            <option value="100" <%= pagination.limit == 100 ? 'selected' : '' %>>100</option>
+                        </select>
+                        <span style="margin-left: 10px;">Showing page <%= pagination.page %> of <%= pagination.totalPages || 1 %> (<%= totalSubmissions %> total)</span>
+                    </div>
+                    
+                    <div style="display: flex; gap: 8px;">
+                        <% if (pagination.page > 1) { %>
+                            <a href="?page=<%= pagination.page - 1 %>&limit=<%= pagination.limit %>" class="btn" style="background: white; color: var(--admin-text); border: 1px solid var(--admin-border); padding: 8px 16px;">Previous</a>
+                        <% } else { %>
+                            <button class="btn" disabled style="background: #f1f5f9; color: #94a3b8; border: 1px solid var(--admin-border); padding: 8px 16px; cursor: not-allowed;">Previous</button>
+                        <% } %>
+                        
+                        <% if (pagination.page < pagination.totalPages) { %>
+                            <a href="?page=<%= pagination.page + 1 %>&limit=<%= pagination.limit %>" class="btn" style="background: white; color: var(--admin-text); border: 1px solid var(--admin-border); padding: 8px 16px;">Next</a>
+                        <% } else { %>
+                            <button class="btn" disabled style="background: #f1f5f9; color: #94a3b8; border: 1px solid var(--admin-border); padding: 8px 16px; cursor: not-allowed;">Next</button>
+                        <% } %>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+</body>
+</html>

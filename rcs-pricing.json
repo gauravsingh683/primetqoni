@@ -1,0 +1,1010 @@
+[
+  {
+    "country": "India",
+    "prefix": "91",
+    "marketing": "?0.86310",
+    "utility": "?0.11500",
+    "authentication": "?0.11500"
+  },
+  {
+    "country": "Afghanistan",
+    "prefix": "93",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Albania",
+    "prefix": "355",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Algeria",
+    "prefix": "213",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Angola",
+    "prefix": "244",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Argentina",
+    "prefix": "54",
+    "marketing": "?4.52930",
+    "utility": "?1.90620",
+    "authentication": "?1.90620"
+  },
+  {
+    "country": "Armenia",
+    "prefix": "374",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Australia",
+    "prefix": "61",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Austria",
+    "prefix": "43",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Azerbaijan",
+    "prefix": "994",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Bahrain",
+    "prefix": "973",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Bangladesh",
+    "prefix": "880",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Belarus",
+    "prefix": "375",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Belgium",
+    "prefix": "32",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Benin",
+    "prefix": "229",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Bolivia",
+    "prefix": "591",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Botswana",
+    "prefix": "267",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Brazil",
+    "prefix": "55",
+    "marketing": "?4.58080",
+    "utility": "?0.49840",
+    "authentication": "?0.49840"
+  },
+  {
+    "country": "Bulgaria",
+    "prefix": "359",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Burkina Faso",
+    "prefix": "226",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Burundi",
+    "prefix": "257",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Cambodia",
+    "prefix": "855",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Cameroon",
+    "prefix": "237",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Chad",
+    "prefix": "235",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Chile",
+    "prefix": "56",
+    "marketing": "?6.51350",
+    "utility": "?1.46540",
+    "authentication": "?1.46540"
+  },
+  {
+    "country": "China",
+    "prefix": "86",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Colombia",
+    "prefix": "57",
+    "marketing": "?0.91610",
+    "utility": "?0.05880",
+    "authentication": "?0.05880"
+  },
+  {
+    "country": "Costa Rica",
+    "prefix": "506",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Croatia",
+    "prefix": "385",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Czech Republic",
+    "prefix": "420",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Denmark",
+    "prefix": "45",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Dominican Republic",
+    "prefix": "1809",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Dominican Republic",
+    "prefix": "1829",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Dominican Republic",
+    "prefix": "1849",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Ecuador",
+    "prefix": "593",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Egypt",
+    "prefix": "20",
+    "marketing": "?4.71910",
+    "utility": "?0.26390",
+    "authentication": "?0.26390"
+  },
+  {
+    "country": "El Salvador",
+    "prefix": "503",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Eritrea",
+    "prefix": "291",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Ethiopia",
+    "prefix": "251",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Finland",
+    "prefix": "358",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "France",
+    "prefix": "33",
+    "marketing": "?6.29900",
+    "utility": "?2.19940",
+    "authentication": "?2.19940"
+  },
+  {
+    "country": "Gabon",
+    "prefix": "241",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Gambia",
+    "prefix": "220",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Georgia",
+    "prefix": "995",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Germany",
+    "prefix": "49",
+    "marketing": "?10.00730",
+    "utility": "?4.03220",
+    "authentication": "?4.03220"
+  },
+  {
+    "country": "Ghana",
+    "prefix": "233",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Greece",
+    "prefix": "30",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Guatemala",
+    "prefix": "502",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "prefix": "245",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Haiti",
+    "prefix": "509",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Honduras",
+    "prefix": "504",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Hong Kong",
+    "prefix": "852",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Hungary",
+    "prefix": "36",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Indonesia",
+    "prefix": "62",
+    "marketing": "?3.01110",
+    "utility": "?1.83160",
+    "authentication": "?1.83160"
+  },
+  {
+    "country": "Iraq",
+    "prefix": "964",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Ireland",
+    "prefix": "353",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Israel",
+    "prefix": "972",
+    "marketing": "?2.58710",
+    "utility": "?0.38850",
+    "authentication": "?0.38850"
+  },
+  {
+    "country": "Italy",
+    "prefix": "39",
+    "marketing": "?5.06140",
+    "utility": "?2.19740",
+    "authentication": "?2.19740"
+  },
+  {
+    "country": "Ivory Coast",
+    "prefix": "225",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Jamaica",
+    "prefix": "1658",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Jamaica",
+    "prefix": "1876",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Japan",
+    "prefix": "81",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Jordan",
+    "prefix": "962",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Kenya",
+    "prefix": "254",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Kuwait",
+    "prefix": "965",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Laos",
+    "prefix": "856",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Latvia",
+    "prefix": "371",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Lebanon",
+    "prefix": "961",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Lesotho",
+    "prefix": "266",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Liberia",
+    "prefix": "231",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Libya",
+    "prefix": "218",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Lithuania",
+    "prefix": "370",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Madagascar",
+    "prefix": "261",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Malawi",
+    "prefix": "265",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Malaysia",
+    "prefix": "60",
+    "marketing": "?6.30370",
+    "utility": "?1.02620",
+    "authentication": "?1.02620"
+  },
+  {
+    "country": "Mali",
+    "prefix": "223",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Mauritania",
+    "prefix": "222",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Mexico",
+    "prefix": "52",
+    "marketing": "?2.23570",
+    "utility": "?0.62260",
+    "authentication": "?0.62260"
+  },
+  {
+    "country": "Moldova",
+    "prefix": "373",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Mongolia",
+    "prefix": "976",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Morocco",
+    "prefix": "212",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Mozambique",
+    "prefix": "258",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Namibia",
+    "prefix": "264",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Nepal",
+    "prefix": "977",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Netherlands",
+    "prefix": "31",
+    "marketing": "?11.70780",
+    "utility": "?3.66560",
+    "authentication": "?3.66560"
+  },
+  {
+    "country": "New Zealand",
+    "prefix": "64",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Nicaragua",
+    "prefix": "505",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Niger",
+    "prefix": "227",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Nigeria",
+    "prefix": "234",
+    "marketing": "?3.78510",
+    "utility": "?0.49150",
+    "authentication": "?0.49150"
+  },
+  {
+    "country": "North Macedonia",
+    "prefix": "389",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Norway",
+    "prefix": "47",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Oman",
+    "prefix": "968",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Other",
+    "prefix": "N/A",
+    "marketing": "?4.42480",
+    "utility": "?0.56410",
+    "authentication": "?0.56410"
+  },
+  {
+    "country": "Pakistan",
+    "prefix": "92",
+    "marketing": "?3.46830",
+    "utility": "?0.39600",
+    "authentication": "?0.39600"
+  },
+  {
+    "country": "Panama",
+    "prefix": "507",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Papua New Guinea",
+    "prefix": "675",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Paraguay",
+    "prefix": "595",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Peru",
+    "prefix": "51",
+    "marketing": "?5.15360",
+    "utility": "?1.46620",
+    "authentication": "?1.46620"
+  },
+  {
+    "country": "Philippines",
+    "prefix": "63",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Poland",
+    "prefix": "48",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Portugal",
+    "prefix": "351",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Puerto Rico",
+    "prefix": "1787939",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Puerto Rico",
+    "prefix": "1939",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Puerto Rico",
+    "prefix": "1787",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Qatar",
+    "prefix": "974",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Republic of the Congo (Brazzaville)",
+    "prefix": "242",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Romania",
+    "prefix": "40",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Russia",
+    "prefix": "7",
+    "marketing": "?5.87670",
+    "utility": "?2.93110",
+    "authentication": "?2.93110"
+  },
+  {
+    "country": "Rwanda",
+    "prefix": "250",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Saudi Arabia",
+    "prefix": "966",
+    "marketing": "?3.32920",
+    "utility": "?0.78340",
+    "authentication": "?0.78340"
+  },
+  {
+    "country": "Senegal",
+    "prefix": "221",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Serbia",
+    "prefix": "381",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Sierra Leone",
+    "prefix": "232",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Singapore",
+    "prefix": "65",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Slovakia",
+    "prefix": "421",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Slovenia",
+    "prefix": "386",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "Somalia",
+    "prefix": "252",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "South Africa",
+    "prefix": "27",
+    "marketing": "?2.78210",
+    "utility": "?0.55790",
+    "authentication": "?0.55790"
+  },
+  {
+    "country": "South Sudan",
+    "prefix": "211",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Spain",
+    "prefix": "34",
+    "marketing": "?4.50440",
+    "utility": "?1.46480",
+    "authentication": "?1.46480"
+  },
+  {
+    "country": "Sri Lanka",
+    "prefix": "94",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Sudan",
+    "prefix": "249",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Swaziland",
+    "prefix": "268",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Sweden",
+    "prefix": "46",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Switzerland",
+    "prefix": "41",
+    "marketing": "?4.33780",
+    "utility": "?1.25160",
+    "authentication": "?1.25160"
+  },
+  {
+    "country": "Taiwan",
+    "prefix": "886",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Tajikistan",
+    "prefix": "992",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Tanzania",
+    "prefix": "255",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Thailand",
+    "prefix": "66",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Togo",
+    "prefix": "228",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Tunisia",
+    "prefix": "216",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Turkey",
+    "prefix": "90",
+    "marketing": "?0.79890",
+    "utility": "?0.38840",
+    "authentication": "?0.38840"
+  },
+  {
+    "country": "Turkmenistan",
+    "prefix": "993",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Uganda",
+    "prefix": "256",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  },
+  {
+    "country": "Ukraine",
+    "prefix": "380",
+    "marketing": "?6.29970",
+    "utility": "?1.54960",
+    "authentication": "?1.54960"
+  },
+  {
+    "country": "United Arab Emirates",
+    "prefix": "971",
+    "marketing": "?3.66130",
+    "utility": "?1.15090",
+    "authentication": "?1.15090"
+  },
+  {
+    "country": "United Kingdom",
+    "prefix": "44",
+    "marketing": "?3.87470",
+    "utility": "?1.61220",
+    "authentication": "?1.61220"
+  },
+  {
+    "country": "United States",
+    "prefix": "1",
+    "marketing": "?1.83130",
+    "utility": "?0.24910",
+    "authentication": "?0.24910"
+  },
+  {
+    "country": "Uruguay",
+    "prefix": "598",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Uzbekistan",
+    "prefix": "998",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Venezuela",
+    "prefix": "58",
+    "marketing": "?5.42070",
+    "utility": "?0.82780",
+    "authentication": "?0.82780"
+  },
+  {
+    "country": "Vietnam",
+    "prefix": "84",
+    "marketing": "?5.36640",
+    "utility": "?0.82820",
+    "authentication": "?0.82820"
+  },
+  {
+    "country": "Yemen",
+    "prefix": "967",
+    "marketing": "?2.49930",
+    "utility": "?0.66650",
+    "authentication": "?0.66650"
+  },
+  {
+    "country": "Zambia",
+    "prefix": "260",
+    "marketing": "?1.64970",
+    "utility": "?0.29300",
+    "authentication": "?0.29300"
+  }
+]

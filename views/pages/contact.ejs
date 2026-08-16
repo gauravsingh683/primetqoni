@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body data-page="contact">
+
+    <%- include('../partials/header') %>
+
+    <section class="contact-hero">
+        <div class="container animate-on-scroll">
+            <h1>Contact Us</h1>
+            <p>Ready to start your next project? Get in touch with our team of experts today.</p>
+        </div>
+    </section>
+
+    <section class="section-padding-lg" style="background: white; padding-bottom: 0;">
+        <div class="container animate-on-scroll">
+            <div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h2 style="color: var(--primary-dark); margin-bottom: 20px;">Let's Build Something Great Together</h2>
+                    <p style="color: var(--text-secondary); line-height: 1.7; font-size: 1.1rem; margin-bottom: 20px;">We’re here to help you transform your business with smart digital solutions. Whether you’re looking for custom software development, IT asset management, complaint management systems, SEO services, or Zoho business solutions — our team is ready to assist you.</p>
+                    <p style="color: var(--text-secondary); line-height: 1.7; font-size: 1.1rem; margin-bottom: 30px;">Get in touch with us today and let’s build something great together.</p>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="/images/contact-hero.png" alt="Contact Primetroniq" style="width: 100%; border-radius: 12px; box-shadow: var(--shadow-lg);" />
+                </div>
+            </div>
+
+            <div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap; flex-direction: row-reverse; margin-top: 80px; margin-bottom: 40px;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h2 style="color: var(--primary-dark); margin-bottom: 20px;">Why Contact Primetroniq Innovations?</h2>
+                    <ul style="color: var(--text-secondary); line-height: 1.7; font-size: 1.1rem; margin: 0 0 20px 20px;">
+                        <li>Expert IT & Software Consulting</li>
+                        <li>Custom Software Development</li>
+                        <li>SEO & Digital Marketing Services</li>
+                        <li>IT Asset Management Solutions</li>
+                        <li>Complaint Management Software</li>
+                        <li>Zoho CRM & Zoho Mail Partner Services</li>
+                        <li>Dedicated Support & Maintenance</li>
+                    </ul>
+                    <p style="color: var(--text-secondary); line-height: 1.7; font-size: 1.1rem; font-weight: 500;">We believe in building long-term partnerships by delivering reliable, scalable, and future-ready technology solutions.</p>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="/images/contact-1.png" alt="Why Choose Us" style="width: 100%; border-radius: 12px; box-shadow: var(--shadow-lg);" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding-lg">
+        <div class="container" style="text-align: center;">
+            
+            <div class="contact-info animate-on-scroll">
+                <span class="subtitle">Get In Touch</span>
+                <h2 style="margin-bottom: 40px;">We'd Love to Hear From You!</h2>
+                
+                <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-bottom: 40px;">
+                    
+                    <div class="contact-info-card" style="text-align: left; min-width: 250px;">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3>Call Us</h3>
+                            <a href="tel:<%= phone.replace(/\s+/g, '') %>"><%= phone %></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card" style="text-align: left; min-width: 250px;">
+                        <div class="contact-info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3>WhatsApp Chat</h3>
+                            <a href="https://wa.me/<%= whatsapp %>" target="_blank">+<%= whatsapp %></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card" style="text-align: left; min-width: 250px;">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-content">
+                            <h3>Email Us</h3>
+                            <a href="mailto:<%= email %>"><%= email %></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Visme Style Dark Contact Form Section -->
+    <style>
+    .visme-contact-section {
+        background: #172136; /* Dark slate blue from screenshot */
+        padding: 80px 0;
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+    .visme-heading {
+        color: white; 
+        font-size: 2.8rem; 
+        margin-bottom: 15px; 
+        font-family: 'Georgia', serif; /* Serif font for the heading as in screenshot */
+        letter-spacing: 0.5px;
+    }
+    .visme-subheading {
+        color: #e2e8f0; 
+        font-size: 1.1rem; 
+        max-width: 500px; 
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+    .visme-input {
+        width: 100%;
+        background: #101625; /* Darker background for inputs */
+        border: none;
+        color: white;
+        padding: 16px 20px;
+        border-radius: 6px;
+        font-size: 1rem;
+        transition: all 0.3s;
+        margin-bottom: 16px;
+    }
+    .visme-input:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #3b82f6;
+    }
+    .visme-input::placeholder {
+        color: #94a3b8;
+    }
+    .visme-submit {
+        background: #3b82f6;
+        color: white;
+        border: none;
+        padding: 14px 30px;
+        border-radius: 4px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s;
+        float: right;
+    }
+    .visme-submit:hover {
+        background: #2563eb;
+    }
+    </style>
+
+    <section class="visme-contact-section" id="contact-form">
+        <div class="container">
+            
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2 class="visme-heading">Let's Discuss Your Next Project</h2>
+                <p class="visme-subheading">Whether you need custom software, digital marketing, or enterprise solutions, our experts are ready to help you scale your business.</p>
+            </div>
+
+            <div style="display: flex; gap: 40px; align-items: center; justify-content: center; max-width: 900px; margin: 0 auto; flex-wrap: wrap;">
+                
+                <!-- Left: 3D Animated Character (Lottie) -->
+                <div style="flex: 1; min-width: 300px; text-align: center;">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <!-- Using classic lottie-player which is more reliable across browsers -->
+                    <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_u25cckyh.json" background="transparent" speed="1" style="width: 100%; max-width: 350px; height: 400px; margin: 0 auto;" loop autoplay></lottie-player>
+                </div>
+
+                <!-- Right: Dark Form -->
+                <div style="flex: 1; min-width: 300px; padding-top: 20px;">
+                    <form action="/api/contact" method="POST" class="ajax-form">
+                        
+                        <div style="display: flex; gap: 16px;">
+                            <input type="text" name="name" class="visme-input" placeholder="Your Name" required>
+                            <input type="email" name="email" class="visme-input" placeholder="Email Address" required>
+                        </div>
+                        <div style="display: flex; gap: 16px;">
+                            <input type="tel" name="phone" class="visme-input" placeholder="Phone Number">
+                            <select name="service" class="visme-input" style="color: #94a3b8;">
+                                <option value="" disabled selected>Select Service Interest</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="App Development">App Development</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="WhatsApp API">WhatsApp API</option>
+                                <option value="Cloud Hosting">Cloud Hosting</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <textarea name="message" class="visme-input" placeholder="Your Message" required style="min-height: 120px; resize: vertical;"></textarea>
+
+                        <div style="display: flex; justify-content: flex-end; width: 100%;">
+                            <button type="submit" class="visme-submit">
+                                <span class="btn-text">Submit</span>
+                                <span class="btn-loader" style="display: none;"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+                            </button>
+                        </div>
+                        <div class="form-status" style="margin-top:15px; clear: both;"></div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <%- include('../partials/footer') %>
+    <%- include('../partials/whatsapp') %>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

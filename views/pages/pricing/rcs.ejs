@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    
+    <style>
+        .pricing-hero {
+            padding: 80px 0 40px;
+            background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-light) 100%);
+        }
+        
+        .pricing-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .pricing-header {
+            margin-bottom: 40px;
+        }
+
+        .pricing-header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .pricing-header p {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+            padding: 30px;
+            margin-bottom: 60px;
+            overflow-x: auto;
+        }
+
+        table.dataTable {
+            width: 100% !important;
+            border-collapse: collapse !important;
+        }
+
+        table.dataTable thead th {
+            background-color: #f1f3f5;
+            color: var(--primary-dark);
+            font-weight: 600;
+            padding: 15px !important;
+            border-bottom: 2px solid #e9ecef !important;
+            text-align: left;
+        }
+
+        table.dataTable tbody td {
+            padding: 15px !important;
+            border-bottom: 1px solid #eee;
+            color: var(--text-primary);
+            vertical-align: middle;
+        }
+
+        table.dataTable tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* DataTables overrides */
+        .dataTables_wrapper .dataTables_filter input {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 8px 12px;
+            margin-left: 10px;
+            outline: none;
+        }
+
+        .dataTables_wrapper .dataTables_filter input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.1);
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+            background: var(--primary) !important;
+            color: white !important;
+            border: none !important;
+            border-radius: 6px;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            border-radius: 6px;
+            border: 1px solid #eee !important;
+            margin: 0 4px;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+            background: var(--bg-light) !important;
+            color: var(--primary-dark) !important;
+            border: 1px solid #ddd !important;
+        }
+
+        .btn-get-started {
+            display: inline-block;
+            background: #2d3748;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-get-started:hover {
+            background: #1a202c;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <%- include('../../partials/header') %>
+
+    <main>
+        <section class="pricing-hero">
+            <div class="pricing-container">
+                <div class="pricing-header">
+                    <h1>RCS Pricing</h1>
+                    <p>Connect To Our Team For The Customized RCS Message Pricing</p>
+                    <a href="/contact" class="btn-get-started">Get Started</a>
+                </div>
+
+                <div class="table-container">
+                    <table id="rcsTable" class="display" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Market</th>
+                                <th>Prefix</th>
+                                <th>Marketing</th>
+                                <th>Utility</th>
+                                <th>Authentication</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% 
+                            if(pricingData && pricingData.length > 0) {
+                                pricingData.forEach(function(country) { 
+                                    if(country.marketing) {
+                            %>
+                                <tr>
+                                    <td><strong><%= country.country %></strong></td>
+                                    <td><%= country.prefix %></td>
+                                    <td style="color: #2e7d32;">₹<%= parseFloat(country.marketing.replace(/[^0-9.]/g, '') || 0).toFixed(5) %></td>
+                                    <td style="color: #1565c0;">₹<%= parseFloat(country.utility.replace(/[^0-9.]/g, '') || 0).toFixed(5) %></td>
+                                    <td style="color: #e65100;">₹<%= parseFloat(country.authentication.replace(/[^0-9.]/g, '') || 0).toFixed(5) %></td>
+                                </tr>
+                            <% 
+                                    }
+                                }); 
+                            } 
+                            %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <%- include('../../partials/footer') %>
+
+    <!-- jQuery and DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $('#rcsTable').DataTable({
+                "pageLength": 10,
+                "lengthChange": false,
+                "language": {
+                    "search": "",
+                    "searchPlaceholder": "Search"
+                },
+                "dom": '<"top"f>rt<"bottom"p><"clear">',
+                "order": [[ 0, "asc" ]] // Sort by Market alphabetically
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %>
+</head>
+<body data-page="legal">
+
+    <%- include('../../partials/header') %>
+
+    <section class="section-padding-lg" style="padding-top: 160px;">
+        <div class="container">
+            <div class="legal-content animate-on-scroll">
+                <h1>Privacy Policy</h1>
+                <div class="legal-meta">Last Updated: <%= new Date().toLocaleDateString() %></div>
+
+                <h2>1. Introduction</h2>
+                <p>Primetroniq Innovations respects your privacy and is committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our website or use our services.</p>
+
+                <h2>2. Information We Collect</h2>
+                <p>We may collect personal data that you provide to us directly, such as your name, email address, phone number, and company name when you fill out contact forms, book a demo, or interact with our chat widgets.</p>
+                <p>We also automatically collect non-personal information such as your IP address, browser type, and interaction with our website through cookies and analytics tools.</p>
+
+                <h2>3. How We Use Your Information</h2>
+                <ul>
+                    <li>To provide and maintain our services to you.</li>
+                    <li>To communicate with you regarding inquiries, project updates, and support.</li>
+                    <li>To send promotional materials, if you have opted in to receive them.</li>
+                    <li>To analyze and improve our website performance and user experience.</li>
+                </ul>
+
+                <h2>4. Data Security</h2>
+                <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction. However, no internet transmission is entirely secure, and we cannot guarantee absolute security.</p>
+
+                <h2>5. Data Sharing</h2>
+                <p>We do not sell, trade, or rent your personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information with our business partners and trusted affiliates for the purposes outlined above.</p>
+
+                <h2>6. Your Rights</h2>
+                <p>You have the right to request access to the personal data we hold about you, to request corrections, or to request the deletion of your data. To exercise these rights, please contact us at <a href="mailto:<%= email %>"><%= email %></a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <%- include('../../partials/footer') %>
+    <%- include('../../partials/whatsapp') %>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

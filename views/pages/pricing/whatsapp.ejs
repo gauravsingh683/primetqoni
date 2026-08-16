@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../partials/head') %>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    
+    <style>
+        body[data-page="pricing"] {
+            background-color: #ffffff;
+        }
+        .pricing-hero {
+            padding: 80px 0 40px;
+        }
+        
+        /* Tabs Styling */
+        .pricing-tabs {
+            display: flex;
+            margin-bottom: 50px;
+        }
+        .pricing-tab {
+            padding: 15px 40px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+        .pricing-tab.active {
+            background-color: #1f1b3d;
+            color: white;
+        }
+        .pricing-tab.inactive {
+            background-color: #f3f4f6;
+            color: #4b5563;
+        }
+
+        /* Content Styling */
+        .pricing-content h2 {
+            font-size: 2rem;
+            color: #111827;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .pricing-content ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            color: #374151;
+            font-size: 1.05rem;
+        }
+        
+        .btn-dark {
+            background-color: #374151;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 30px;
+            border: none;
+            transition: background 0.3s;
+        }
+        .btn-dark:hover {
+            background-color: #1f2937;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* DataTables Custom Styling */
+        .dataTables_wrapper .dataTables_filter input {
+            border: 1px solid #d1d5db;
+            border-radius: 4px;
+            padding: 6px 12px;
+            margin-left: 10px;
+        }
+        table.dataTable thead th {
+            background-color: #e5e7eb;
+            color: #374151;
+            font-weight: 600;
+            border-bottom: none;
+            padding: 12px 18px;
+        }
+        table.dataTable tbody td {
+            border-bottom: 1px solid #f3f4f6;
+            padding: 12px 18px;
+            color: #6b7280;
+        }
+        table.dataTable.no-footer {
+            border-bottom: 1px solid #e5e7eb;
+            border-top: 1px solid #e5e7eb;
+            border-left: 1px solid #e5e7eb;
+            border-right: 1px solid #e5e7eb;
+        }
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            padding: 5px 12px;
+            margin: 0;
+            border: 1px solid #e5e7eb;
+            background: white;
+            color: #374151 !important;
+        }
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+            background: #f3f4f6;
+            border-color: #d1d5db;
+        }
+        .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+            background: #f3f4f6;
+            color: #374151 !important;
+            border: 1px solid #d1d5db;
+        }
+
+        .pricing-footer-text {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: #374151;
+            font-size: 1.05rem;
+        }
+    </style>
+</head>
+<body data-page="pricing">
+
+    <%- include('../../partials/header') %>
+
+    <section class="pricing-hero">
+        <div class="container">
+            
+            <!-- Tabs -->
+            <div class="pricing-tabs">
+                <button id="tab-messages" class="pricing-tab active" onclick="switchTab('messages')">Messages</button>
+                <button id="tab-voice" class="pricing-tab inactive" onclick="switchTab('voice')">Voice</button>
+            </div>
+
+            <!-- Content -->
+            <div class="pricing-content">
+                <h2>Enjoy 100% Free WhatsApp Inbound Calls till December!</h2>
+                <ul>
+                    <li>Pricing after December: Inbound Calls: ₹0.5/min</li>
+                </ul>
+                <a href="/contact?service=WhatsApp API" class="btn-dark">Get Started</a>
+
+                <!-- Messages Table -->
+                <div id="table-container-messages" style="margin-top: 20px; overflow-x: auto;">
+                    <table id="whatsappPricingTableMessages" class="display" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Market</th>
+                                <th>Prefix</th>
+                                <th>Marketing</th>
+                                <th>Utility</th>
+                                <th>Authentication</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% if(pricingData && pricingData.length > 0) { %>
+                                <% pricingData.forEach(function(item) { %>
+                                    <tr>
+                                        <td><strong><%= item.market %></strong></td>
+                                        <td><%= item.prefix %></td>
+                                        <td style="color: #2e7d32;">₹<%= parseFloat(item.marketing.replace(/[^0-9.]/g, '') || 0).toFixed(5) %></td>
+                                        <td style="color: #1565c0;">₹<%= parseFloat(item.utility.replace(/[^0-9.]/g, '') || 0).toFixed(5) %></td>
+                                        <td style="color: #e65100;">₹<%= parseFloat(item.auth.replace(/[^0-9.]/g, '') || 0).toFixed(5) %></td>
+                                    </tr>
+                                <% }); %>
+                            <% } %>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Voice Table -->
+                <div id="table-container-voice" style="margin-top: 20px; overflow-x: auto; display: none;">
+                    <table id="whatsappPricingTableVoice" class="display" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Market</th>
+                                <th>Prefix</th>
+                                <th>Charges (per minute)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% if(pricingData && pricingData.length > 0) { %>
+                                <% pricingData.forEach(function(item) { %>
+                                    <tr>
+                                        <td><strong><%= item.market %></strong></td>
+                                        <td><%= item.prefix %></td>
+                                        <td style="color: #6a1b9a; font-weight: 600;">₹<%= parseFloat(item.voice.replace(/[^0-9.]/g, '') || 0).toFixed(5) %></td>
+                                    </tr>
+                                <% }); %>
+                            <% } %>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Footer Text & Button -->
+                <div class="pricing-footer-text">
+                    Connect with our team for Pricing .
+                </div>
+                <a href="/contact?service=WhatsApp API" class="btn-dark">Get Started</a>
+            </div>
+
+        </div>
+    </section>
+
+    <%- include('../../partials/footer') %>
+    <%- include('../../partials/whatsapp') %>
+
+    <!-- jQuery & DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+        let tableMessages, tableVoice;
+
+        $(document).ready(function() {
+            tableMessages = $('#whatsappPricingTableMessages').DataTable({
+                "pageLength": 10,
+                "lengthChange": false,
+                "language": {
+                    "search": "",
+                    "searchPlaceholder": "Search"
+                },
+                "pagingType": "simple_numbers",
+                "info": false
+            });
+
+            tableVoice = $('#whatsappPricingTableVoice').DataTable({
+                "pageLength": 10,
+                "lengthChange": false,
+                "language": {
+                    "search": "",
+                    "searchPlaceholder": "Search"
+                },
+                "pagingType": "simple_numbers",
+                "info": false
+            });
+        });
+
+        function switchTab(tab) {
+            if(tab === 'messages') {
+                $('#tab-messages').removeClass('inactive').addClass('active');
+                $('#tab-voice').removeClass('active').addClass('inactive');
+                $('#table-container-messages').show();
+                $('#table-container-voice').hide();
+            } else {
+                $('#tab-voice').removeClass('inactive').addClass('active');
+                $('#tab-messages').removeClass('active').addClass('inactive');
+                $('#table-container-voice').show();
+                $('#table-container-messages').hide();
+                // DataTables sometimes needs adjusting columns when made visible from display:none
+                tableVoice.columns.adjust().draw();
+            }
+        }
+    </script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
