@@ -2267,111 +2267,121 @@ const servicesData = {
 </div>
 `,
         description: `
-        
-
-        
         <div class="animate-on-scroll">
-            <p style="font-size: 1.1rem; color: var(--text-primary); font-weight: 500;"><strong>Transform Every Screen Into a Powerful Communication Platform</strong></p>
-            <p>Manage, schedule, and display content on multiple screens from anywhere using Primetroniq Innovations' Cloud-Based Digital Signage Solution. Deliver engaging announcements, advertisements, videos, dashboards, emergency alerts, and real-time information across your organization with ease.</p>
-            <p>Whether you have one screen or thousands of displays across multiple locations, our platform makes content management simple, secure, and scalable.</p>
+            <p style="font-size: 1.2rem; color: var(--primary-dark); font-weight: 700;"><strong>Transform Any Display Screen Into an Intelligent Communication Hub</strong></p>
+            <p>Manage, schedule, and broadcast custom layouts and multimedia content on multiple screens remotely from a centralized web-based dashboard. Ideal for retail stores, corporate lobbies, hospitals, educational campuses, and transit stations, Primetroniq Innovations' Cloud Digital Signage offers an end-to-end communication network that is secure, fast, and highly scalable.</p>
         </div>
 
         <div class="animate-on-scroll" style="margin-top: 40px; margin-bottom: 40px;">
             <img src="/images/signage-content.png" alt="Cloud Signage Content Dashboard" style="width:100%; border-radius:12px; box-shadow: var(--shadow-deep); transition: transform 0.3s ease;" class="hover-scale" />
         </div>
 
-        
-
-        <style>
-.tv-frame {
-    position: relative;
-    width: 100%;
-    max-width: 800px;
-    margin: 40px auto 0 auto;
-    background: #000;
-    border: 12px solid #222;
-    border-radius: 16px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.5), inset 0 0 15px rgba(255,255,255,0.1);
-    aspect-ratio: 16/9;
-    overflow: hidden;
-}
-.tv-stand {
-    width: 120px;
-    height: 25px;
-    background: #333;
-    margin: 0 auto;
-    position: relative;
-}
-.tv-base {
-    width: 250px;
-    height: 10px;
-    background: #222;
-    margin: 0 auto 30px auto;
-    border-radius: 5px;
-}
-.screen-slider {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.screen-slider img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    animation: tvSlide 12s infinite;
-}
-.screen-slider img:nth-child(1) { animation-delay: 0s; }
-.screen-slider img:nth-child(2) { animation-delay: 4s; }
-.screen-slider img:nth-child(3) { animation-delay: 8s; }
-
-@keyframes tvSlide {
-    0%, 25% { opacity: 1; }
-    33.33%, 100% { opacity: 0; }
-}
-</style>
-
-<div class="animate-on-scroll">
-    <div class="tv-frame hover-scale">
-        <div class="screen-slider">
-            <img src="/images/ad-1.png" alt="Pizza Signage Ad" />
-            <img src="/images/ad-2.png" alt="Burger Signage Ad" />
-            <img src="/images/ad-3.png" alt="Drinks Signage Ad" />
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-laptop-code" style="color: var(--primary); margin-right: 12px;"></i>Centralized Cloud CMS Panel</h3>
+            <p>Administer your entire digital display fleet from anywhere using a single, unified web-based administrative portal:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Fleet & Heartbeat Monitoring:</strong> Real-time device connection status tracking. Instantly view player health, network latency, active layout, and capture live screenshots remotely.</li>
+                <li><strong>Role-Based User Permissions:</strong> Grant access level privileges dynamically. Establish Super Admins (full settings), Content Managers (create and edit playlists), and Viewers.</li>
+                <li><strong>Dynamic Playlist Publisher:</strong> Instantly compile layout configurations, timings, transitions, and schedules into a unified JSON format that pushes to players over high-speed WebSockets or HTTP APIs.</li>
+                <li><strong>Asset Library with Recycle Bin:</strong> Keep folders, images, videos, and scripts structured. Deleted items are kept in a soft-delete recycle bin with search and search-recovery filters to avoid data loss.</li>
+            </ul>
         </div>
-    </div>
-    <div class="tv-stand hover-scale"></div>
-    <div class="tv-base hover-scale"></div>
-    <p style="text-align:center; font-style:italic; color: var(--text-secondary); margin-bottom:40px;">* Live Demo: A simulated digital menu board cross-fading through 3 different promotional campaigns.</p>
-</div>
 
         <div class="animate-on-scroll">
-            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 20px;">Modern Digital Signage for Every Industry</h3>
-            <p>Our Cloud Digital Signage Platform allows businesses, hospitals, educational institutions, retail stores, corporate offices, and government organizations to centrally manage and control digital displays from a single web-based dashboard.</p>
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-pencil-ruler" style="color: var(--accent); margin-right: 12px;"></i>Dynamic Layout Studio Editor</h3>
+            <p>Design visual flyer screens without writing code using our intuitive drag-and-drop Layout Studio:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Fluid Screen Ratios:</strong> Seamlessly switch between Horizontal (1920x1080) for menu boards, Vertical (1080x1920) for kiosks, or enter Custom Width and Height coordinates to fit custom LED boards.</li>
+                <li><strong>Multi-Zone Grid Division:</strong> Split a single canvas into multiple independent zones. Run video loops in the center, logo branding on top, and a scrolling text ticket banner at the bottom.</li>
+                <li><strong>Relative Positioning & Z-Index Layering:</strong> Layer elements on top of each other, scale them with pixel-perfect accuracy, and preview layout changes instantly in a kinetic preview simulator.</li>
+            </ul>
         </div>
 
-        <div class="grid grid-cols-2 animate-on-scroll" style="gap: 20px; margin-top: 30px; margin-bottom: 40px;">
-            <div class="card hover-lift" style="padding: 24px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: var(--bg-surface);">
-                <i class="fas fa-cloud" style="font-size: 2rem; color: var(--primary); margin-bottom: 15px;"></i>
-                <h4 style="margin-bottom: 10px; font-weight: 700;">Cloud-Based Management</h4>
-                <p style="font-size: 0.9rem; color: var(--text-secondary);">Manage all screens remotely through a centralized cloud dashboard. Includes a web-based admin panel, remote management, and multi-location support.</p>
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-film" style="color: #10B981; margin-right: 12px;"></i>Transitions, Tickers, and Widgets</h3>
+            <p>Inject life into your flyers and catch viewer attention using dynamic transitions and live widgets:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Cinematic Transition Animations:</strong> Configure entry animations for every asset, including Fades, Slide (Left, Right, Up, Down), Zoom (In, Out), Rotation, and 3D Perspective Flips.</li>
+                <li><strong>Custom Ticker Marquees:</strong> Input custom paragraphs and scroll speed to overlay running text announcements at the bottom of the screen. The compiler automatically formats text into a clean single-line scrolling ticker.</li>
+                <li><strong>Web and Streaming Integrations:</strong> Embed live interactive Webpages (perfect for dashboards/QR codes) or specify YouTube URL streams to show live video feeds inside layout zones.</li>
+            </ul>
+        </div>
+
+        <style>
+        .tv-frame {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 40px auto 0 auto;
+            background: #000;
+            border: 12px solid #222;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5), inset 0 0 15px rgba(255,255,255,0.1);
+            aspect-ratio: 16/9;
+            overflow: hidden;
+        }
+        .tv-stand {
+            width: 120px;
+            height: 25px;
+            background: #333;
+            margin: 0 auto;
+            position: relative;
+        }
+        .tv-base {
+            width: 250px;
+            height: 10px;
+            background: #222;
+            margin: 0 auto 30px auto;
+            border-radius: 5px;
+        }
+        .screen-slider {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        .screen-slider img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            animation: tvSlide 12s infinite;
+        }
+        .screen-slider img:nth-child(1) { animation-delay: 0s; }
+        .screen-slider img:nth-child(2) { animation-delay: 4s; }
+        .screen-slider img:nth-child(3) { animation-delay: 8s; }
+
+        @keyframes tvSlide {
+            0%, 25% { opacity: 1; }
+            33.33%, 100% { opacity: 0; }
+        }
+        </style>
+
+        <div class="animate-on-scroll">
+            <div class="tv-frame hover-scale">
+                <div class="screen-slider">
+                    <img src="/images/ad-1.png" alt="Pizza Signage Ad" />
+                    <img src="/images/ad-2.png" alt="Burger Signage Ad" />
+                    <img src="/images/ad-3.png" alt="Drinks Signage Ad" />
+                </div>
             </div>
-            <div class="card hover-lift" style="padding: 24px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: var(--bg-surface);">
-                <i class="fas fa-calendar-alt" style="font-size: 2rem; color: var(--accent); margin-bottom: 15px;"></i>
-                <h4 style="margin-bottom: 10px; font-weight: 700;">Playlist & Scheduling</h4>
-                <p style="font-size: 0.9rem; color: var(--text-secondary);">Display the right content at the right time with date, time, day, and event-based scheduling, plus auto content rotation.</p>
+            <div class="tv-stand hover-scale"></div>
+            <div class="tv-base hover-scale"></div>
+            <p style="text-align:center; font-style:italic; color: var(--text-secondary); margin-bottom:40px;">* Live Demo: A simulated digital menu board cross-fading through 3 different promotional campaigns.</p>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fab fa-android" style="color: #3DDC84; margin-right: 12px;"></i>Android Client Player App & Offline Caching</h3>
+            <p>Our native Android player client (supporting Android TV, Smart Display Panels, and Android Media Player Boxes) is optimized for mission-critical operations:</p>
+            <div class="card hover-lift" style="padding: 24px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #f8fafc; margin-bottom: 20px;">
+                <h4 style="margin-bottom: 10px; font-weight: 700; color: var(--primary-dark); display: flex; align-items: center; gap: 10px;"><i class="fas fa-wifi-slash" style="color: #ef4444;"></i> 100% Offline Playout Engine</h4>
+                <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;">Unlike standard players that stream live assets and fail when the network drops, our player client features a built-in Local Caching Engine. It automatically downloads and saves all media assets (images, videos, web pages, configurations) onto the player's internal memory. The player runs offline continuously, playing all media seamlessly even if there is no internet connection.</p>
             </div>
-            <div class="card hover-lift" style="padding: 24px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: var(--bg-surface);">
-                <i class="fas fa-exclamation-triangle" style="font-size: 2rem; color: #ef4444; margin-bottom: 15px;"></i>
-                <h4 style="margin-bottom: 10px; font-weight: 700;">Real-Time Emergency Alerts</h4>
-                <p style="font-size: 0.9rem; color: var(--text-secondary);">Push content instantly to any connected screen, including fire alerts, medical emergencies, and disaster notifications.</p>
-            </div>
-            <div class="card hover-lift" style="padding: 24px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: var(--bg-surface);">
-                <i class="fas fa-mobile-alt" style="font-size: 2rem; color: var(--primary-light); margin-bottom: 15px;"></i>
-                <h4 style="margin-bottom: 10px; font-weight: 700;">Mobile App Management</h4>
-                <p style="font-size: 0.9rem; color: var(--text-secondary);">Control your displays on the go. Super Admin, Content Manager, and Viewer roles fully supported on our mobile ecosystem.</p>
+            <div class="card hover-lift" style="padding: 24px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #f8fafc; margin-bottom: 30px;">
+                <h4 style="margin-bottom: 10px; font-weight: 700; color: var(--primary-dark); display: flex; align-items: center; gap: 10px;"><i class="fas fa-sync-alt" style="color: var(--primary);"></i> Dynamic Delta Synchronizer</h4>
+                <p style="font-size: 0.95rem; color: var(--text-secondary); margin: 0; line-height: 1.6;">When a new playlist layout is published, the player receives a background notification. It connects via heartbeats and pulls only the modified layout changes (delta assets) silently in the background. Playback of the current campaign is never interrupted. Once the new assets are fully downloaded and cached locally, the player instantly swaps the active layout without any flicker or loading screens.</p>
             </div>
         </div>
 
@@ -2381,53 +2391,23 @@ const servicesData = {
         </div>
 
         <div class="animate-on-scroll">
-            <h3 style="color: var(--primary-dark); font-size: 1.5rem;">Industry-Specific Solutions</h3>
-            <ul style="margin-bottom: 30px; color: var(--text-secondary); line-height: 1.7;">
-                <li><strong>Hospitals & Healthcare:</strong> Display Patient Information, Health Awareness Campaigns, Doctor Schedules, and Queue Information.</li>
-                <li><strong>Educational Institutions:</strong> Ideal for displaying Notices, Exam Schedules, Event Updates, and Campus Announcements.</li>
-                <li><strong>Corporate Offices:</strong> Improve internal communication with KPI Dashboards, Company News, and Meeting Schedules.</li>
-                <li><strong>Retail Stores:</strong> Increase sales with Promotions, Product Advertisements, Special Offers, and Seasonal Campaigns.</li>
-                <li><strong>Manufacturing:</strong> Enhance operational visibility with Production Metrics, Safety Alerts, and Operational Dashboards.</li>
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-business-time" style="color: var(--primary); margin-right: 12px;"></i>Advanced Campaign Scheduler</h3>
+            <p>Target your target audience precisely by setting detailed calendar rules for layout playback:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 40px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Dayparting (Time-Slotting):</strong> Allocate different content for specific hours (e.g. breakfast menus in the morning, dinner promotions at night).</li>
+                <li><strong>Date Ranges & Lifespan:</strong> Schedule holiday offers or limited-time campaigns to activate and expire automatically on specific dates.</li>
+                <li><strong>Day-of-Week Repeat Rules:</strong> Set layouts to play only on weekdays or weekends, repeating on schedule automatically.</li>
             </ul>
-        </div>
-
-        <div class="animate-on-scroll">
-            <h3 style="color: var(--primary-dark); font-size: 1.5rem;">Advantages Over Traditional Signage</h3>
-            <div style="overflow-x:auto;">
-                <table style="width:100%; border-collapse: collapse; margin-bottom: 30px; color: var(--text-secondary); background: white; border-radius: 8px; overflow: hidden; box-shadow: var(--shadow-sm);">
-                    <thead>
-                        <tr style="background-color: var(--primary); color: white; text-align: left;">
-                            <th style="padding: 15px; border: 1px solid var(--glass-border);">Traditional Signage</th>
-                            <th style="padding: 15px; border: 1px solid var(--glass-border);">Cloud Digital Signage</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td style="padding: 15px; border: 1px solid var(--glass-border);">Manual Updates</td><td style="padding: 15px; border: 1px solid var(--glass-border); font-weight: 600; color: var(--primary-dark);">Remote Updates instantly from anywhere</td></tr>
-                        <tr><td style="padding: 15px; border: 1px solid var(--glass-border);">Expensive Printing Costs</td><td style="padding: 15px; border: 1px solid var(--glass-border); font-weight: 600; color: var(--primary-dark);">Zero Printing Cost</td></tr>
-                        <tr><td style="padding: 15px; border: 1px solid var(--glass-border);">Limited Reach (One Location)</td><td style="padding: 15px; border: 1px solid var(--glass-border); font-weight: 600; color: var(--primary-dark);">Unlimited Locations managed centrally</td></tr>
-                        <tr><td style="padding: 15px; border: 1px solid var(--glass-border);">Static Content Only</td><td style="padding: 15px; border: 1px solid var(--glass-border); font-weight: 600; color: var(--primary-dark);">Dynamic Multimedia Content (Video, HTML)</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <div class="animate-on-scroll" style="background: var(--gradient-cta); padding: 40px; border-radius: var(--radius-lg); color: white; text-align: center; margin-top: 40px; box-shadow: var(--shadow-lg);">
-            <h2 style="color: white; margin-bottom: 15px; font-size: 2rem;">Ready to Transform Your Digital Communication?</h2>
-            <p style="margin-bottom: 25px; opacity: 0.9; max-width: 600px; margin-left: auto; margin-right: auto;">Manage all your displays from anywhere, engage your audience effectively, and deliver real-time information with Primetroniq Cloud Digital Signage.</p>
-            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                <a href="/book-demo" class="btn" style="background: white; color: var(--primary-dark); font-weight: 700; padding: 12px 30px; border-radius: 50px;">Request Free Demo</a>
-                <a href="/contact" class="btn btn-outline" style="border-color: white; color: white; font-weight: 700; padding: 12px 30px; border-radius: 50px;">Contact Sales</a>
-            </div>
         </div>
         `,
         benefits: [
-            { title: 'Increase Engagement', text: 'Capture attention using dynamic multimedia content and live dashboards.' },
+            { title: 'Offline Playout Continuity', text: 'Play signage content flawlessly even without an internet connection using local caching.' },
             { title: 'Centralized Control', text: 'Manage all displays across unlimited locations from a single dashboard.' },
-            { title: 'Zero Printing Cost', text: 'Replace traditional posters and printed notices, saving money and time.' },
-            { title: 'Faster Delivery', text: 'Broadcast emergency alerts and important updates to all screens in seconds.' }
+            { title: 'Dynamic Layout Canvas', text: 'Create horizontal, vertical, or custom multi-zone layouts easily without code.' },
+            { title: 'Granular Scheduling', text: 'Time-slot campaigns and daypart content down to exact hours and dates.' }
         ],
-        features: ['Cloud-Based Remote Management', 'Multi-Screen Grouping & Scheduling', 'Live Dashboards & RSS Feeds', 'Emergency Alert System', 'Android TV Support', 'Offline Content Playback'],
-        techStack: ['Node.js', 'React', 'WebSockets', 'Android SDK', 'AWS Cloud'],
+        features: ['Drag-and-Drop Multi-Zone Layout Studio', 'Horizontal, Vertical & Custom Orientations', 'Native Android Player App (Android TV / Tablets)', '100% Offline Playout & Local Asset Caching', 'Dynamic Content Transitions & Timings', 'Real-Time Scrolling Text Ticker Overlays', 'Webpage & Live YouTube Stream Embedding', 'Central CMS Dashboard with Heartbeat Monitoring'],
+        techStack: ['Node.js / Express', 'React.js / Vite', 'Android SDK (Java)', 'MongoDB', 'WebSockets', 'Nginx Reverse Proxy'],
         keywords: 'Cloud Digital Signage Software, Digital Signage Solution India, Android TV Signage Software, Digital Display Management System'
     },
     'queue-management': { 
