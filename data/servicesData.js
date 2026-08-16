@@ -2678,6 +2678,158 @@ const servicesData = {
         features: [],
         techStack: ['Microsoft Power BI', 'Microsoft Fabric', 'Azure Synapse', 'Power Query', 'DAX', 'SQL Server'],
         keywords: 'Power BI consulting, Microsoft Power BI Partner, dashboard development, data engineering, Power BI Embedded' 
+    },
+    'sql-automation': { 
+        title: 'SQL Database Backup Automation', 
+        category: 'Products',
+        actionButton: { text: 'Book Demo', url: '/book-demo' }, 
+        imageUrl: '',
+        customHeroHTML: `
+<style>
+.db-hero-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1;
+    background: radial-gradient(circle at center, rgba(33, 150, 243, 0.15) 0%, transparent 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.db-cylinder {
+    position: relative;
+    width: 120px;
+    height: 160px;
+    background: #e2e8f0;
+    border: 4px solid #475569;
+    border-radius: 20px / 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+.db-disk-line {
+    width: 90%;
+    height: 8px;
+    border-bottom: 3px solid #475569;
+    border-radius: 50%;
+}
+.db-shield {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: #10B981;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    box-shadow: 0 10px 20px rgba(16,185,129,0.3);
+    font-size: 1.2rem;
+}
+.db-arrow-spin {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    background: #3B82F6;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    box-shadow: 0 10px 20px rgba(59,130,246,0.3);
+    font-size: 1.2rem;
+    animation: spinArrow 4s linear infinite;
+}
+@keyframes spinArrow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+</style>
+<div class="db-hero-container">
+    <div class="db-cylinder">
+        <div class="db-disk-line"></div>
+        <div class="db-disk-line"></div>
+        <div class="db-disk-line"></div>
+        <i class="fas fa-database" style="font-size: 3rem; color: #475569;"></i>
+        <div class="db-arrow-spin"><i class="fas fa-sync-alt"></i></div>
+        <div class="db-shield"><i class="fas fa-shield-alt"></i></div>
+    </div>
+</div>
+`,
+        description: `
+        <div class="animate-on-scroll">
+            <p style="font-size: 1.2rem; color: var(--primary-dark); font-weight: 700;"><strong>Secure, Automated, and Compliant Database Backup Solutions</strong></p>
+            <p>Your database contains the lifeblood of your business. Manual backups are prone to human error, forgetfulness, and corruption. Primetroniq Innovations' SQL Database Backup Automation provides a robust, zero-touch solution that runs continuously in the background, making sure your data is backed up, processed, verified, and secured at regular intervals.</p>
+        </div>
+
+        <div class="animate-on-scroll" style="margin-top: 40px; margin-bottom: 40px;">
+            <img src="/images/asset-analytics.png" alt="Database Backup Automation Dashboard" style="width:100%; border-radius:12px; box-shadow: var(--shadow-deep); transition: transform 0.3s ease;" class="hover-scale" />
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-calendar-check" style="color: var(--primary); margin-right: 12px;"></i>Automated Scheduling (Cron & Windows Task Scheduler)</h3>
+            <p>Say goodbye to manual exports. Set it and forget it with customizable schedule triggers:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Dynamic Scheduling intervals:</strong> Run backups hourly, daily, weekly, or monthly depending on your data modification frequency.</li>
+                <li><strong>Low-Impact Playout:</strong> Configure backups to run during off-peak hours (e.g. 2:00 AM) to prevent database resource locks during business operations.</li>
+                <li><strong>Backup Lifespan & Rotations:</strong> Automate cleanup policies. Retain daily backups for a week, weekly backups for a month, and clean up older versions automatically to optimize server space.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-magic" style="color: var(--accent); margin-right: 12px;"></i>Automated Collation Compatibility Sanitizer</h3>
+            <p>Avoid common recovery errors caused by target server database mismatches:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Clean Collation Mismatches:</strong> When exporting from MySQL 8.0 to older cPanel databases (which run MySQL 5.7 or MariaDB), SQL imports fail with errors like '#1273 - Unknown collation'. Our script automatically intercepts the dump and translates incompatible collation tags (like converting 'utf8mb4_0900_ai_ci' to 'utf8mb4_unicode_ci') before saving.</li>
+                <li><strong>SQL Integrity Checks:</strong> Ensures that dump schemas are completely valid and fully importable before uploading to backups.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-cloud-upload-alt" style="color: #10B981; margin-right: 12px;"></i>Multi-Destination Cloud & Git Push</h3>
+            <p>Ensure backup redundancy by saving your databases to multiple secure external vaults:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Secure Git Integration:</strong> Automatically commit and push database backups to secure, private GitHub or GitLab repositories via HTTPS (caching host credentials) or SSH keys.</li>
+                <li><strong>Cloud Object Storage:</strong> Sync backups directly to Amazon S3 buckets, Google Cloud Storage, Azure Blob, or private FTP servers.</li>
+                <li><strong>Local System Backups:</strong> Store offline copies on secondary local drives or network-attached storage (NAS) folders.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-lock" style="color: #ef4444; margin-right: 12px;"></i>Strict Linux ACL & Directory Locking</h3>
+            <p>Protect your database files on the server against unauthorized access or developers:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Linux Access Control Lists (ACLs):</strong> Restrict folders recursively using Linux ACL permissions. Block standard users or external SSH developers from entering, listing, or copying backup files.</li>
+                <li><strong>Encrypted Transport:</strong> All backups are transferred over secure channels using SSH key authentication or SSL-encrypted endpoints.</li>
+            </ul>
+        </div>
+        `,
+        benefits: [
+            { title: 'Zero Data Loss', text: 'Automated schedules ensure you always have recent recovery points to restore from.' },
+            { title: 'Redundant Locations', text: 'Upload dumps to secure Git repositories and cloud object stores automatically.' },
+            { title: 'Clean Restores', text: 'Pre-processes database dumps to avoid MySQL/cPanel collation compatibility failures.' },
+            { title: 'Access Lockout', text: 'Locks backup directories with advanced Linux ACLs and root-only permissions.' }
+        ],
+        features: [
+            'Cron-based Database Backup Scheduling',
+            'MySQL, PostgreSQL & MongoDB Support',
+            'Automatic Collation Sanitizer Filter',
+            'Remote Cloud Storage Integration (AWS S3 / GCP)',
+            'Git Repository Auto-Sync Integration',
+            'Linux ACL & Secure Permission Locking',
+            'Automated Heartbeat Logs & Alert Notifications'
+        ],
+        techStack: ['Bash Scripting', 'PowerShell', 'Git & SSH Keys', 'MySQL / mysqldump', 'Node.js / Cron', 'Linux security (ACL)'],
+        keywords: 'SQL backup automation, database backup system, mysql backup script, secure database backup, git database auto push' 
     }
 };
 
