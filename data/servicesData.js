@@ -2931,24 +2931,60 @@ const servicesData = {
 `,
         description: `
         <div class="animate-on-scroll">
-            <p style="font-size: 1.25rem; color: var(--primary-dark); font-weight: 700;"><strong>Revolutionizing Event Photography with Generative AI</strong></p>
-            <p>Our upcoming AI Photo Booth Software is engineered to transform standard event photography into a highly engaging, interactive, and personalized experience. By utilizing advanced local and cloud-based AI rendering pipelines, this software allows guests to step into virtual worlds, swap faces with historic figures, apply artistic filters, and share their creations instantly.</p>
+            <p style="font-size: 1.25rem; color: var(--primary-dark); font-weight: 700;"><strong>Next-Generation Event Photography Driven by Advanced Generative AI & AR</strong></p>
+            <p>Step away from boring corporate photo booths. Primetroniq Innovations' AI Photo Booth Software merges real-time face tracking, augmented reality overlays, and generative vision networks into a powerful, interactive entertainment system. Perfect for corporate summits, wedding stages, and marketing activations, this software runs locally with lightning-fast model inferences to bring event memories to life.</p>
         </div>
 
         <div class="animate-on-scroll" style="background: #f8fafc; border-left: 4px solid var(--primary); padding: 25px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-top: 30px; margin-bottom: 40px;">
             <h4 style="color: var(--primary-dark); margin-bottom: 10px; font-weight: 700; display: flex; align-items: center; gap: 10px;"><i class="fas fa-tools" style="color: var(--primary);"></i> Under Active Development</h4>
-            <p style="margin: 0; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Our development team is currently building the initial beta version. We are optimizing real-time face tracking algorithms and designing custom print layouts to ensure an ultra-fast, stable user experience during large scale live events.</p>
+            <p style="margin: 0; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Our development repository is currently packing features including MediaPipe vision processing, automated cPanel database integration, and high-performance Electron windows application shells. We are running active pre-release tests on the live stack.</p>
         </div>
 
         <div class="animate-on-scroll">
-            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-magic" style="color: var(--accent); margin-right: 12px;"></i>Planned Key Features</h3>
-            <p>Here is what we are building into our AI Photo Booth Suite:</p>
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-magic" style="color: var(--accent); margin-right: 12px;"></i>Generative AI Theme Engine (Google Gemini API)</h3>
+            <p>Our backend features direct API integration with Google's Gemini Vision models to analyze captured selfies and apply intelligent styling:</p>
             <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
-                <li><strong>AI Background Replacement:</strong> Automatically separate guests from their physical backgrounds without using a physical green screen and replace it with custom-rendered AI environments.</li>
-                <li><strong>Generative AI Face Swaps:</strong> Instantly overlay guest faces onto high-quality themed template pictures (e.g. Astronauts, Corporate Professionals, Historical Costumes).</li>
-                <li><strong>Artistic Filter Transformation:</strong> Apply cartoon, manga, vintage sketch, or oil painting styles to photographs dynamically in less than 5 seconds.</li>
-                <li><strong>Instant QR Code Sharing:</strong> Generate unique QR codes on the photo booth screen immediately after a photo session for fast download to smartphones.</li>
-                <li><strong>Hardware Print Queue Controller:</strong> Direct integration with professional DNP dye-sublimation printers with auto-scaling layout margins.</li>
+                <li><strong>Thematic AI Transformation:</strong> Choose from presets including Anime Style, Pixar 3D Animation, Cyberpunk Neon, Royal King/Queen portraits, Superhero suits, and Vintage 90s Polaroid.</li>
+                <li><strong>Dynamic Outfit & Face Analysis:</strong> Gemini scans the guest's face and outfit details, writing a personalized, highly creative 2-sentence description of what their character would do in that virtual world.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-user-astronaut" style="color: var(--primary); margin-right: 12px;"></i>MediaPipe AR Tracking & Beauty Enhancers</h3>
+            <p>Process live video feeds and apply real-time filters using Google's MediaPipe Tasks Vision Face Landmarker:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Real-time AR Overlays:</strong> Map 3D face coordinates to overlay accessories dynamically as the user moves, including Aviators, 8-Bit Retro Specs, Love Heart Specs, Puppy Faces, and Masquerade Masks.</li>
+                <li><strong>Perfect Skin Smoothness:</strong> Built-in skin smoothing algorithms dynamically adjust opacity parameters to remove blemishes and balance camera exposure instantly.</li>
+                <li><strong>Color Glow Modes:</strong> Apply beautiful, studio-grade blush filters including Rosy Pink, Paris Glow, Peachy Tone, Pearl Matte, and Pastel Dream.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-sliders-h" style="color: #10B981; margin-right: 12px;"></i>20+ Instagram Filter Dial</h3>
+            <p>Cycle through multiple photo-styling tones using a clean UI dial selection, featuring profiles such as:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Lomo & Contrast:</strong> Clarendon, Gingham, Lark, Juno, Ludwig, Lo-Fi, and Hefe.</li>
+                <li><strong>Vintage & Monochrome:</strong> Reyes sepia, Slumber, Crema, Sierra, Willow, and Inkwell grayscale.</li>
+                <li><strong>Special Styling:</strong> Cyber Neon (highly saturated purple/cyan) and Pop Art.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-images" style="color: var(--accent); margin-right: 12px;"></i>Dual-Capture & Custom Event Frames</h3>
+            <p>Give guests control over their layout structures and print designs:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>Selfie Modes:</strong> Support for classic Single Selfie shots or Multi-frame grid layouts for custom collage selfie layouts.</li>
+                <li><strong>Branded Overlays:</strong> Ingest dynamic event frames directly from the Admin Panel, including VOGUE Cover style, Insta Post framing, Facebook feed cards, Wedding Day designs, and custom corporate logos.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-share-alt" style="color: #3b82f6; margin-right: 12px;"></i>Omni-Channel Share & Print Hub</h3>
+            <p>Ensure that guests can receive their photos instantly and keep physical memorabilia:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>QR Code SVG Card:</strong> Render immediate QR codes on-screen, allowing guests to scan and download high-resolution copies directly.</li>
+                <li><strong>Direct Message Dispatch:</strong> Send completed outputs instantly via integrated WhatsApp API routes or SMTP email.</li>
+                <li><strong>DNP Print Controller:</strong> Queue prints automatically to physical dye-sublimation event photo printers.</li>
             </ul>
         </div>
 
@@ -2961,21 +2997,23 @@ const servicesData = {
         </div>
         `,
         benefits: [
-            { title: 'Interactive AI Filters', text: 'Engage event guests with real-time face swaps and unique AI templates.' },
-            { title: 'Zero Green Screen', text: 'Clean AI background segmentation without expensive physical backdrops.' },
-            { title: 'Instant QR Sharing', text: 'Guests download their high-res images in seconds via customized QR code scans.' },
-            { title: 'Offline Playout Support', text: 'Local model caching allows filters to process even during spotty event internet.' }
+            { title: 'Gemini AI Vision Integration', text: 'Uses Google Gemini API to analyze outfits and write personalized creative descriptions.' },
+            { title: 'MediaPipe 3D Face Mapping', text: 'Real-time face tracking for aviators, masks, puppy ears, and active skin smoothing.' },
+            { title: '20+ Instagram Preset Filters', text: 'Dial select from Clarendon, Reyes, Slumber, Cyber Neon, Pop Art, and Inkwell.' },
+            { title: 'Offline-Enabled Models', text: 'Features local vision libraries to keep processing active even with spotty event internet.' }
         ],
         features: [
-            'Real-Time Generative AI Face Swaps',
-            'No Green Screen Background Replacement',
-            'Cartoon, Painting & Vintage Filter Engines',
-            'Instant Screen QR Code File Downloads',
-            'Integrated DNP Printer Layout Controller',
-            'Localized Offline AI Processing Engine'
+            'Google Gemini AI Vision Theme Engine',
+            'MediaPipe Face Landmarker 3D AR Overlays',
+            'Perfect Skin Smoothing & Studio Glow Filters',
+            '20+ Instagram-Style Filter Presets Dial',
+            'Single Selfie & Grid Collage Capture Layouts',
+            'Branded Event Frames (Vogue Cover, Insta Post)',
+            'Instant Screen QR Code Cards & SMTP Email Pushes',
+            'Direct Dye-Sublimation Photo Printer Queues'
         ],
-        techStack: ['Python', 'PyTorch', 'Node.js', 'Electron', 'React.js', 'OpenCV'],
-        keywords: 'AI Photo Booth Software, Generative AI Photo Booth, face swap photo booth, event photography app, green screen removal' 
+        techStack: ['Python', 'PyTorch', 'Node.js', 'Electron', 'React.js', 'OpenCV', 'ASP.NET Core Web API', 'Google MediaPipe', 'Google Gemini API'],
+        keywords: 'AI Photo Booth Software, Generative AI Photo Booth, face swap photo booth, event photography app, green screen removal, MediaPipe AR, Gemini Vision' 
     }
 };
 
