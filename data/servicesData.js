@@ -2836,6 +2836,146 @@ const servicesData = {
         ],
         techStack: ['Bash Scripting', 'PowerShell', 'Git & SSH Keys', 'MySQL / mysqldump', 'Node.js / Cron', 'Linux security (ACL)'],
         keywords: 'SQL backup automation, database backup system, mysql backup script, secure database backup, git database auto push' 
+    },
+    'ai-photobooth': { 
+        title: 'AI Photo Booth Software', 
+        seoTitle: 'AI Photo Booth Software | Event Photography & AI Filters (Coming Soon)',
+        metaDescription: 'Next-generation AI Photo Booth Software featuring face swaps, dynamic AI background removals, filter generation, and instant QR sharing. (Coming Soon)',
+        category: 'Products',
+        ogImage: '/images/ai-1.png',
+        actionButton: { text: 'Request Beta', url: '/contact' }, 
+        imageUrl: '',
+        customHeroHTML: `
+<style>
+.pb-hero-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1;
+    background: radial-gradient(circle at center, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pb-frame {
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background: white;
+    border: 6px solid #1e293b;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(-5deg);
+    transition: transform 0.3s ease;
+}
+.pb-frame::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 50px;
+    background: #f1f5f9;
+    border: 2px solid #cbd5e1;
+    border-radius: 4px;
+    background-image: radial-gradient(circle at 30% 30%, #a78bfa 0%, #8b5cf6 70%);
+}
+.pb-lens {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: #1e293b;
+    border: 6px solid white;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pb-lens-glass {
+    width: 20px;
+    height: 20px;
+    background: #38bdf8;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.pb-badge {
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    background: #ef4444;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(239,68,68,0.3);
+    transform: rotate(15deg);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+</style>
+<div class="pb-hero-container">
+    <div class="pb-frame hover-scale">
+        <div class="pb-lens">
+            <div class="pb-lens-glass"></div>
+        </div>
+        <div class="pb-badge">Coming Soon</div>
+    </div>
+</div>
+`,
+        description: `
+        <div class="animate-on-scroll">
+            <p style="font-size: 1.25rem; color: var(--primary-dark); font-weight: 700;"><strong>Revolutionizing Event Photography with Generative AI</strong></p>
+            <p>Our upcoming AI Photo Booth Software is engineered to transform standard event photography into a highly engaging, interactive, and personalized experience. By utilizing advanced local and cloud-based AI rendering pipelines, this software allows guests to step into virtual worlds, swap faces with historic figures, apply artistic filters, and share their creations instantly.</p>
+        </div>
+
+        <div class="animate-on-scroll" style="background: #f8fafc; border-left: 4px solid var(--primary); padding: 25px; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-top: 30px; margin-bottom: 40px;">
+            <h4 style="color: var(--primary-dark); margin-bottom: 10px; font-weight: 700; display: flex; align-items: center; gap: 10px;"><i class="fas fa-tools" style="color: var(--primary);"></i> Under Active Development</h4>
+            <p style="margin: 0; font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">Our development team is currently building the initial beta version. We are optimizing real-time face tracking algorithms and designing custom print layouts to ensure an ultra-fast, stable user experience during large scale live events.</p>
+        </div>
+
+        <div class="animate-on-scroll">
+            <h3 style="color: var(--primary-dark); font-size: 1.8rem; margin-bottom: 24px; border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; font-weight: 700;"><i class="fas fa-magic" style="color: var(--accent); margin-right: 12px;"></i>Planned Key Features</h3>
+            <p>Here is what we are building into our AI Photo Booth Suite:</p>
+            <ul style="color: var(--text-secondary); line-height: 1.8; margin-bottom: 30px; padding-left: 20px; list-style-type: square;">
+                <li><strong>AI Background Replacement:</strong> Automatically separate guests from their physical backgrounds without using a physical green screen and replace it with custom-rendered AI environments.</li>
+                <li><strong>Generative AI Face Swaps:</strong> Instantly overlay guest faces onto high-quality themed template pictures (e.g. Astronauts, Corporate Professionals, Historical Costumes).</li>
+                <li><strong>Artistic Filter Transformation:</strong> Apply cartoon, manga, vintage sketch, or oil painting styles to photographs dynamically in less than 5 seconds.</li>
+                <li><strong>Instant QR Code Sharing:</strong> Generate unique QR codes on the photo booth screen immediately after a photo session for fast download to smartphones.</li>
+                <li><strong>Hardware Print Queue Controller:</strong> Direct integration with professional DNP dye-sublimation printers with auto-scaling layout margins.</li>
+            </ul>
+        </div>
+
+        <div class="animate-on-scroll" style="background: var(--gradient-cta); padding: 40px; border-radius: var(--radius-lg); color: white; text-align: center; margin-top: 40px; box-shadow: var(--shadow-lg);">
+            <h2 style="color: white; margin-bottom: 15px; font-size: 2rem;">Get Early Access to Beta</h2>
+            <p style="margin-bottom: 25px; opacity: 0.9; max-width: 600px; margin-left: auto; margin-right: auto;">Be the first to test our AI Photo Booth Software. Sign up with your email to receive development updates, beta release announcements, and exclusive early-bird pricing plans.</p>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="/contact" class="btn" style="background: white; color: var(--primary-dark); font-weight: 700; padding: 12px 30px; border-radius: 50px;">Request Beta Access</a>
+            </div>
+        </div>
+        `,
+        benefits: [
+            { title: 'Interactive AI Filters', text: 'Engage event guests with real-time face swaps and unique AI templates.' },
+            { title: 'Zero Green Screen', text: 'Clean AI background segmentation without expensive physical backdrops.' },
+            { title: 'Instant QR Sharing', text: 'Guests download their high-res images in seconds via customized QR code scans.' },
+            { title: 'Offline Playout Support', text: 'Local model caching allows filters to process even during spotty event internet.' }
+        ],
+        features: [
+            'Real-Time Generative AI Face Swaps',
+            'No Green Screen Background Replacement',
+            'Cartoon, Painting & Vintage Filter Engines',
+            'Instant Screen QR Code File Downloads',
+            'Integrated DNP Printer Layout Controller',
+            'Localized Offline AI Processing Engine'
+        ],
+        techStack: ['Python', 'PyTorch', 'Node.js', 'Electron', 'React.js', 'OpenCV'],
+        keywords: 'AI Photo Booth Software, Generative AI Photo Booth, face swap photo booth, event photography app, green screen removal' 
     }
 };
 
