@@ -129,8 +129,8 @@ Object.keys(servicePages).forEach(slug => {
         const service = servicePages[slug];
         res.render('pages/services/service-detail', {
             ...siteData,
-            title: `${service.title} | Primetroniq Innovations`,
-            description: service.description,
+            title: service.seoTitle || `${service.title} | Primetroniq Innovations`,
+            description: service.metaDescription || service.description.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').substring(0, 160).trim(),
             keywords: service.keywords,
             canonicalUrl: `${siteData.siteUrl}/services/${slug}`,
             ogImage: siteData.siteUrl + '/assets/images/logo.png',

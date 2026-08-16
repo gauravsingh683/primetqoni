@@ -2201,6 +2201,8 @@ const servicesData = {
     },
     'signage-cloud': { 
         title: 'Cloud Signage Web Application', 
+        seoTitle: 'Cloud Digital Signage Software & Display Management Solutions',
+        metaDescription: 'Complete cloud digital signage solution featuring drag-and-drop layout studio editor, remote screen heartbeat monitoring, and offline player app caching.',
         category: 'Products',
         actionButton: { text: 'Book Demo', url: '/book-demo' }, 
         imageUrl: '',
@@ -2681,6 +2683,8 @@ const servicesData = {
     },
     'sql-automation': { 
         title: 'SQL Database Backup Automation', 
+        seoTitle: 'SQL Database Backup & Recovery Automation Services',
+        metaDescription: 'Secure database backup automation with cron scheduling, MySQL/cPanel collation compatibility sanitizer filters, and auto-sync uploads to S3 or Git repositories.',
         category: 'Products',
         actionButton: { text: 'Book Demo', url: '/book-demo' }, 
         imageUrl: '',
