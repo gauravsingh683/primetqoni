@@ -133,7 +133,7 @@ Object.keys(servicePages).forEach(slug => {
             description: service.metaDescription || service.description.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').substring(0, 160).trim(),
             keywords: service.keywords,
             canonicalUrl: `${siteData.siteUrl}/services/${slug}`,
-            ogImage: siteData.siteUrl + '/assets/images/logo.png',
+            ogImage: service.ogImage ? siteData.siteUrl + service.ogImage : siteData.siteUrl + '/images/SKN_NEW.svg',
             currentPage: 'services',
             pageCss: 'service-detail',
             service: service,
