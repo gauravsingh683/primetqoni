@@ -2839,8 +2839,8 @@ const servicesData = {
     },
     'ai-photobooth': { 
         title: 'AI Photo Booth Software', 
-        seoTitle: 'AI Photo Booth Software | Event Photography & AI Filters (Coming Soon)',
-        metaDescription: 'Next-generation AI Photo Booth Software featuring face swaps, dynamic AI background removals, filter generation, and instant QR sharing. (Coming Soon)',
+        seoTitle: 'AI Photo Booth Software | Event Photography & AR Filters',
+        metaDescription: 'Next-generation AI Photo Booth Software featuring face swaps, MediaPipe 3D AR filters, Google Gemini Vision integrations, and instant QR event photo sharing.',
         category: 'Products',
         ogImage: '/images/ai-1.png',
         actionButton: { text: 'Request Beta', url: '/contact' }, 
@@ -3013,7 +3013,7 @@ const servicesData = {
             'Direct Dye-Sublimation Photo Printer Queues'
         ],
         techStack: ['Python', 'PyTorch', 'Node.js', 'Electron', 'React.js', 'OpenCV', 'ASP.NET Core Web API', 'Google MediaPipe', 'Google Gemini API'],
-        keywords: 'AI Photo Booth Software, Generative AI Photo Booth, face swap photo booth, event photography app, green screen removal, MediaPipe AR, Gemini Vision' 
+        keywords: 'AI Photo Booth Software, Generative AI Photo Booth, face swap photo booth, event photography app, green screen removal, MediaPipe AR, Gemini Vision, 3D face filters, AR photobooth, automatic print queue' 
     }
 };
 
